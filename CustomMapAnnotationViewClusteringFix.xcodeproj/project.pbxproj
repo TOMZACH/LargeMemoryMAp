@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4C91EB2317698600E6F1D4 /* AppleClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */; };
+		8E696778232184A20077855C /* ListClusterTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E696777232184A10077855C /* ListClusterTagsView.swift */; };
+		8EADF06F2317260A00F40AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF06E2317260A00F40AF6 /* AppDelegate.swift */; };
+		8EADF0712317260A00F40AF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF0702317260A00F40AF6 /* ViewController.swift */; };
+		8EADF0742317260A00F40AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EADF0722317260A00F40AF6 /* Main.storyboard */; };
+		8EADF0762317260B00F40AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EADF0752317260B00F40AF6 /* Assets.xcassets */; };
+		8EADF0792317260B00F40AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EADF0772317260B00F40AF6 /* LaunchScreen.storyboard */; };
+		8EADF0842317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF0832317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.swift */; };
+		8EADF08F2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF08E2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.swift */; };
+		8EADF09D2317265200F40AF6 /* ImageAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF09C2317265200F40AF6 /* ImageAnnotation.swift */; };
+		8EADF09F2317267700F40AF6 /* ClusterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF09E2317267700F40AF6 /* ClusterAnnotation.swift */; };
+		8EADF0A12317269000F40AF6 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF0A02317269000F40AF6 /* CustomAnnotationView.swift */; };
+		8EADF0A323173F5800F40AF6 /* AppleCustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF0A223173F5800F40AF6 /* AppleCustomAnnotation.swift */; };
+		ED2C5C15C901E88358BBDD9C /* Pods_CustomMapAnnotationViewClusteringFixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A7FDBD5C5E115F8838E7A /* Pods_CustomMapAnnotationViewClusteringFixTests.framework */; };
+		F19D984958AAABF937D4BEC7 /* Pods_CustomMapAnnotationViewClusteringFixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCCB04360CE0A6CEEFA0948 /* Pods_CustomMapAnnotationViewClusteringFixUITests.framework */; };
+		F9A6D8B0A25D3226EE65D240 /* Pods_CustomMapAnnotationViewClusteringFix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EDDE84AE9D9F9469FC1099 /* Pods_CustomMapAnnotationViewClusteringFix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EADF0802317260B00F40AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EADF0632317260A00F40AF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EADF06A2317260A00F40AF6;
+			remoteInfo = CustomMapAnnotationViewClusteringFix;
+		};
+		8EADF08B2317260B00F40AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EADF0632317260A00F40AF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EADF06A2317260A00F40AF6;
+			remoteInfo = CustomMapAnnotationViewClusteringFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114A640D65AFE3C24C7ACD9E /* Pods-CustomMapAnnotationViewClusteringFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFix/Pods-CustomMapAnnotationViewClusteringFix.release.xcconfig"; sourceTree = "<group>"; };
+		1DCCB04360CE0A6CEEFA0948 /* Pods_CustomMapAnnotationViewClusteringFixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMapAnnotationViewClusteringFixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E23658474CA607791D0F570 /* Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixTests/Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		207ABDF1B82FFD3D0FCAC1A8 /* Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixUITests/Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClusterAnnotationView.swift; sourceTree = "<group>"; };
+		8E696777232184A10077855C /* ListClusterTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClusterTagsView.swift; sourceTree = "<group>"; };
+		8EADF06B2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMapAnnotationViewClusteringFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EADF06E2317260A00F40AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EADF0702317260A00F40AF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EADF0732317260A00F40AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EADF0752317260B00F40AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EADF0782317260B00F40AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EADF07A2317260B00F40AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EADF07F2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMapAnnotationViewClusteringFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EADF0832317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapAnnotationViewClusteringFixTests.swift; sourceTree = "<group>"; };
+		8EADF0852317260B00F40AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EADF08A2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMapAnnotationViewClusteringFixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EADF08E2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapAnnotationViewClusteringFixUITests.swift; sourceTree = "<group>"; };
+		8EADF0902317260B00F40AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EADF09C2317265200F40AF6 /* ImageAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotation.swift; sourceTree = "<group>"; };
+		8EADF09E2317267700F40AF6 /* ClusterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotation.swift; sourceTree = "<group>"; };
+		8EADF0A02317269000F40AF6 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		8EADF0A223173F5800F40AF6 /* AppleCustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCustomAnnotation.swift; sourceTree = "<group>"; };
+		A601EAC0BB829B3FFFA938A3 /* Pods-CustomMapAnnotationViewClusteringFixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixUITests/Pods-CustomMapAnnotationViewClusteringFixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3A77543E295FA01B3304CE7 /* Pods-CustomMapAnnotationViewClusteringFixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixTests/Pods-CustomMapAnnotationViewClusteringFixTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDFD92E14B8FB5EB7E1E2FC2 /* Pods-CustomMapAnnotationViewClusteringFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFix/Pods-CustomMapAnnotationViewClusteringFix.debug.xcconfig"; sourceTree = "<group>"; };
+		E8EDDE84AE9D9F9469FC1099 /* Pods_CustomMapAnnotationViewClusteringFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMapAnnotationViewClusteringFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A7FDBD5C5E115F8838E7A /* Pods_CustomMapAnnotationViewClusteringFixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMapAnnotationViewClusteringFixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EADF0682317260A00F40AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A6D8B0A25D3226EE65D240 /* Pods_CustomMapAnnotationViewClusteringFix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF07C2317260B00F40AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2C5C15C901E88358BBDD9C /* Pods_CustomMapAnnotationViewClusteringFixTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF0872317260B00F40AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19D984958AAABF937D4BEC7 /* Pods_CustomMapAnnotationViewClusteringFixUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8F6014C1549C5EA918D147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDFD92E14B8FB5EB7E1E2FC2 /* Pods-CustomMapAnnotationViewClusteringFix.debug.xcconfig */,
+				114A640D65AFE3C24C7ACD9E /* Pods-CustomMapAnnotationViewClusteringFix.release.xcconfig */,
+				1E23658474CA607791D0F570 /* Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig */,
+				D3A77543E295FA01B3304CE7 /* Pods-CustomMapAnnotationViewClusteringFixTests.release.xcconfig */,
+				207ABDF1B82FFD3D0FCAC1A8 /* Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig */,
+				A601EAC0BB829B3FFFA938A3 /* Pods-CustomMapAnnotationViewClusteringFixUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53C8F3E6C01C3837EF0C2B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDE84AE9D9F9469FC1099 /* Pods_CustomMapAnnotationViewClusteringFix.framework */,
+				F49A7FDBD5C5E115F8838E7A /* Pods_CustomMapAnnotationViewClusteringFixTests.framework */,
+				1DCCB04360CE0A6CEEFA0948 /* Pods_CustomMapAnnotationViewClusteringFixUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EADF0622317260A00F40AF6 = {
+			isa = PBXGroup;
+			children = (
+				8EADF06D2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */,
+				8EADF0822317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests */,
+				8EADF08D2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests */,
+				8EADF06C2317260A00F40AF6 /* Products */,
+				3D8F6014C1549C5EA918D147 /* Pods */,
+				53C8F3E6C01C3837EF0C2B31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EADF06C2317260A00F40AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EADF06B2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix.app */,
+				8EADF07F2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.xctest */,
+				8EADF08A2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EADF06D2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */ = {
+			isa = PBXGroup;
+			children = (
+				8EADF06E2317260A00F40AF6 /* AppDelegate.swift */,
+				8EADF0702317260A00F40AF6 /* ViewController.swift */,
+				8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */,
+				8E696777232184A10077855C /* ListClusterTagsView.swift */,
+				8EADF09C2317265200F40AF6 /* ImageAnnotation.swift */,
+				8EADF09E2317267700F40AF6 /* ClusterAnnotation.swift */,
+				8EADF0A02317269000F40AF6 /* CustomAnnotationView.swift */,
+				8EADF0A223173F5800F40AF6 /* AppleCustomAnnotation.swift */,
+				8EADF0722317260A00F40AF6 /* Main.storyboard */,
+				8EADF0752317260B00F40AF6 /* Assets.xcassets */,
+				8EADF0772317260B00F40AF6 /* LaunchScreen.storyboard */,
+				8EADF07A2317260B00F40AF6 /* Info.plist */,
+			);
+			path = CustomMapAnnotationViewClusteringFix;
+			sourceTree = "<group>";
+		};
+		8EADF0822317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EADF0832317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.swift */,
+				8EADF0852317260B00F40AF6 /* Info.plist */,
+			);
+			path = CustomMapAnnotationViewClusteringFixTests;
+			sourceTree = "<group>";
+		};
+		8EADF08D2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EADF08E2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.swift */,
+				8EADF0902317260B00F40AF6 /* Info.plist */,
+			);
+			path = CustomMapAnnotationViewClusteringFixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EADF06A2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EADF0932317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFix" */;
+			buildPhases = (
+				B9CAD02E694E532C06D2ACB9 /* [CP] Check Pods Manifest.lock */,
+				8EADF0672317260A00F40AF6 /* Sources */,
+				8EADF0682317260A00F40AF6 /* Frameworks */,
+				8EADF0692317260A00F40AF6 /* Resources */,
+				080F44FC859C0063501176A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomMapAnnotationViewClusteringFix;
+			productName = CustomMapAnnotationViewClusteringFix;
+			productReference = 8EADF06B2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EADF07E2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EADF0962317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFixTests" */;
+			buildPhases = (
+				83C6F245B69BEC7012CF8660 /* [CP] Check Pods Manifest.lock */,
+				8EADF07B2317260B00F40AF6 /* Sources */,
+				8EADF07C2317260B00F40AF6 /* Frameworks */,
+				8EADF07D2317260B00F40AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EADF0812317260B00F40AF6 /* PBXTargetDependency */,
+			);
+			name = CustomMapAnnotationViewClusteringFixTests;
+			productName = CustomMapAnnotationViewClusteringFixTests;
+			productReference = 8EADF07F2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EADF0892317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EADF0992317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFixUITests" */;
+			buildPhases = (
+				2A01480BC1653426ACAE5DDB /* [CP] Check Pods Manifest.lock */,
+				8EADF0862317260B00F40AF6 /* Sources */,
+				8EADF0872317260B00F40AF6 /* Frameworks */,
+				8EADF0882317260B00F40AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EADF08C2317260B00F40AF6 /* PBXTargetDependency */,
+			);
+			name = CustomMapAnnotationViewClusteringFixUITests;
+			productName = CustomMapAnnotationViewClusteringFixUITests;
+			productReference = 8EADF08A2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EADF0632317260A00F40AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = 123456;
+				TargetAttributes = {
+					8EADF06A2317260A00F40AF6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8EADF07E2317260B00F40AF6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8EADF06A2317260A00F40AF6;
+					};
+					8EADF0892317260B00F40AF6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8EADF06A2317260A00F40AF6;
+					};
+				};
+			};
+			buildConfigurationList = 8EADF0662317260A00F40AF6 /* Build configuration list for PBXProject "CustomMapAnnotationViewClusteringFix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EADF0622317260A00F40AF6;
+			productRefGroup = 8EADF06C2317260A00F40AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EADF06A2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */,
+				8EADF07E2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests */,
+				8EADF0892317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EADF0692317260A00F40AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EADF0792317260B00F40AF6 /* LaunchScreen.storyboard in Resources */,
+				8EADF0762317260B00F40AF6 /* Assets.xcassets in Resources */,
+				8EADF0742317260A00F40AF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF07D2317260B00F40AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF0882317260B00F40AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		080F44FC859C0063501176A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFix/Pods-CustomMapAnnotationViewClusteringFix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFix/Pods-CustomMapAnnotationViewClusteringFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A01480BC1653426ACAE5DDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomMapAnnotationViewClusteringFixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C6F245B69BEC7012CF8660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomMapAnnotationViewClusteringFixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CAD02E694E532C06D2ACB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomMapAnnotationViewClusteringFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EADF0672317260A00F40AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EADF0A323173F5800F40AF6 /* AppleCustomAnnotation.swift in Sources */,
+				8EADF09D2317265200F40AF6 /* ImageAnnotation.swift in Sources */,
+				8EADF0A12317269000F40AF6 /* CustomAnnotationView.swift in Sources */,
+				8EADF0712317260A00F40AF6 /* ViewController.swift in Sources */,
+				8E696778232184A20077855C /* ListClusterTagsView.swift in Sources */,
+				8E4C91EB2317698600E6F1D4 /* AppleClusterAnnotationView.swift in Sources */,
+				8EADF06F2317260A00F40AF6 /* AppDelegate.swift in Sources */,
+				8EADF09F2317267700F40AF6 /* ClusterAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF07B2317260B00F40AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EADF0842317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EADF0862317260B00F40AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EADF08F2317260B00F40AF6 /* CustomMapAnnotationViewClusteringFixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EADF0812317260B00F40AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EADF06A2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */;
+			targetProxy = 8EADF0802317260B00F40AF6 /* PBXContainerItemProxy */;
+		};
+		8EADF08C2317260B00F40AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EADF06A2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix */;
+			targetProxy = 8EADF08B2317260B00F40AF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EADF0722317260A00F40AF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EADF0732317260A00F40AF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EADF0772317260B00F40AF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EADF0782317260B00F40AF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EADF0912317260B00F40AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EADF0922317260B00F40AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EADF0942317260B00F40AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFD92E14B8FB5EB7E1E2FC2 /* Pods-CustomMapAnnotationViewClusteringFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EADF0952317260B00F40AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114A640D65AFE3C24C7ACD9E /* Pods-CustomMapAnnotationViewClusteringFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EADF0972317260B00F40AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E23658474CA607791D0F570 /* Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomMapAnnotationViewClusteringFix.app/CustomMapAnnotationViewClusteringFix";
+			};
+			name = Debug;
+		};
+		8EADF0982317260B00F40AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A77543E295FA01B3304CE7 /* Pods-CustomMapAnnotationViewClusteringFixTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomMapAnnotationViewClusteringFix.app/CustomMapAnnotationViewClusteringFix";
+			};
+			name = Release;
+		};
+		8EADF09A2317260B00F40AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207ABDF1B82FFD3D0FCAC1A8 /* Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomMapAnnotationViewClusteringFix;
+			};
+			name = Debug;
+		};
+		8EADF09B2317260B00F40AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A601EAC0BB829B3FFFA938A3 /* Pods-CustomMapAnnotationViewClusteringFixUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8F6V2Q95;
+				INFOPLIST_FILE = CustomMapAnnotationViewClusteringFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADD.CustomMapAnnotationViewClusteringFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomMapAnnotationViewClusteringFix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EADF0662317260A00F40AF6 /* Build configuration list for PBXProject "CustomMapAnnotationViewClusteringFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EADF0912317260B00F40AF6 /* Debug */,
+				8EADF0922317260B00F40AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EADF0932317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EADF0942317260B00F40AF6 /* Debug */,
+				8EADF0952317260B00F40AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EADF0962317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EADF0972317260B00F40AF6 /* Debug */,
+				8EADF0982317260B00F40AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EADF0992317260B00F40AF6 /* Build configuration list for PBXNativeTarget "CustomMapAnnotationViewClusteringFixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EADF09A2317260B00F40AF6 /* Debug */,
+				8EADF09B2317260B00F40AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EADF0632317260A00F40AF6 /* Project object */;
+}
