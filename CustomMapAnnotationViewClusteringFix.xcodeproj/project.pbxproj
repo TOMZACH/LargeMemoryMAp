@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8E4C91EB2317698600E6F1D4 /* AppleClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */; };
-		8E696778232184A20077855C /* ListClusterTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E696777232184A10077855C /* ListClusterTagsView.swift */; };
 		8EADF06F2317260A00F40AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF06E2317260A00F40AF6 /* AppDelegate.swift */; };
 		8EADF0712317260A00F40AF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF0702317260A00F40AF6 /* ViewController.swift */; };
 		8EADF0742317260A00F40AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EADF0722317260A00F40AF6 /* Main.storyboard */; };
@@ -48,7 +47,6 @@
 		1E23658474CA607791D0F570 /* Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixTests/Pods-CustomMapAnnotationViewClusteringFixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		207ABDF1B82FFD3D0FCAC1A8 /* Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMapAnnotationViewClusteringFixUITests/Pods-CustomMapAnnotationViewClusteringFixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClusterAnnotationView.swift; sourceTree = "<group>"; };
-		8E696777232184A10077855C /* ListClusterTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClusterTagsView.swift; sourceTree = "<group>"; };
 		8EADF06B2317260A00F40AF6 /* CustomMapAnnotationViewClusteringFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMapAnnotationViewClusteringFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EADF06E2317260A00F40AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EADF0702317260A00F40AF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				8EADF06E2317260A00F40AF6 /* AppDelegate.swift */,
 				8EADF0702317260A00F40AF6 /* ViewController.swift */,
 				8E4C91EA2317698600E6F1D4 /* AppleClusterAnnotationView.swift */,
-				8E696777232184A10077855C /* ListClusterTagsView.swift */,
 				8EADF09C2317265200F40AF6 /* ImageAnnotation.swift */,
 				8EADF09E2317267700F40AF6 /* ClusterAnnotation.swift */,
 				8EADF0A02317269000F40AF6 /* CustomAnnotationView.swift */,
@@ -413,7 +410,6 @@
 				8EADF09D2317265200F40AF6 /* ImageAnnotation.swift in Sources */,
 				8EADF0A12317269000F40AF6 /* CustomAnnotationView.swift in Sources */,
 				8EADF0712317260A00F40AF6 /* ViewController.swift in Sources */,
-				8E696778232184A20077855C /* ListClusterTagsView.swift in Sources */,
 				8E4C91EB2317698600E6F1D4 /* AppleClusterAnnotationView.swift in Sources */,
 				8EADF06F2317260A00F40AF6 /* AppDelegate.swift in Sources */,
 				8EADF09F2317267700F40AF6 /* ClusterAnnotation.swift in Sources */,
